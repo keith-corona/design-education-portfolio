@@ -95,7 +95,8 @@
         Take a <span class="poppins text-cyan-600">look</span> at my work.
       </h3>
     </div>
-    <a
+    <!-- Disabled for the moment
+     <a
       href="https://youtube.com/"
       target="_blank"
       class="mx-auto px-4 py-2 rounded-lg border-4 border-solid border-red-600 bg-red-600 text-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-red-600 hover:bg-white hover:text-red-600 hover:shadow-md duration-200"
@@ -103,6 +104,7 @@
       <i class="fa-regular fa-circle-play" />
       <p>Watch the video</p>
     </a>
+    -->
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
       <Step step={steps[0]}>
         <p>
