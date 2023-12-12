@@ -20,4 +20,6 @@ As part of my commitment to ongoing skill development, this site also serves as 
 
 - [SvelteKit](https://kit.svelte.dev/)
 - [TailwindCSS](https://tailwindcss.com/)
+- [Netlify](https://netlify.com/)
+  
 
