@@ -70,7 +70,7 @@
       </p>
       <a
         class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl relative overflow-hidden px-6 py-3 group rounded-full bg-gradient-to-r from-cyan-600 to-cyan-800 hover:from-pink-400 hover:to-amber-200 text-white cursor-pointer"
-        href="mailto:keithcorona23@gmail.com"
+        href="mailto:keithcorona@protonmail.com"
       >
         <div
           class="absolute top-0 right-full w-full h-full bg-white opacity-20 group-hover:translate-x-full z-0 duration-500"
