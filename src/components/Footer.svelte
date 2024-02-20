@@ -9,7 +9,7 @@
   </p>
   <div class="flex flex-col gap-4 items-center justify-center">
     <a
-      href="mailto:keithcorona23@gmail.com"
+      href="mailto:keithcorona@protonmail.com"
       class="p-4 bg-cyan-600 text-amber-200 border border-solid border-cyan-600 rounded-xl text-center"
     >
       <p>
