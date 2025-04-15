@@ -100,12 +100,12 @@
           >
 
           <a
-            href="./case-study-2"
+            href="instructional-design/case-study-2"
             class="text-center border-2 border-cyan-200 bg-amber-200 md:bg-cyan-400 p-4 rounded-2xl text-slate-600 m-2 hover:bg-amber-200"
             >Case Study 2</a
           >
           <a
-            href="./case-study-3"
+            href="instructional-design/case-study-3"
             class="text-center border-2 border-cyan-200 bg-amber-200 md:bg-cyan-400 p-4 rounded-2xl text-slate-600 m-2 hover:bg-amber-200"
             >Case Study 3</a
           >
