@@ -38,7 +38,7 @@
   ];
 </script>
 
-<main class="flex flex-col flex-1 p-4">
+<main class="flex flex-col flex-1 lg:px-20 sm:px-4 md:px-4">
   <section
     id="introPage"
     class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14"
@@ -84,7 +84,7 @@
         src={"images/profile-img.jpg"}
         alt="Keith Corona profile image"
         title="Keith Corona - Designer & Educator"
-        class="object-cover z-[2] max-h-[70vh] rounded-full"
+        class="object-cover z-[2] lg:max-h-[70vh] rounded-full"
       />
     </div>
   </section>
