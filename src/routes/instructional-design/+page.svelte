@@ -37,7 +37,7 @@
           href="https://www.ems.ucsb.edu/people/keith-corona"
           target="_blank"
           style="text-decoration: underline;"
-          >English for Multilingual Students Program</a
+          class="hover:font-bold">English for Multilingual Students Program</a
         > in 2016, where I’ve designed all of our program’s online courses, using
         both Moodle and Canvas across online, hybrid, and in-person modalities. I’ve
         also consulted with faculty through tutorial videos and presentations on

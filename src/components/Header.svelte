@@ -10,9 +10,9 @@
         { name: "Online Class", link: "/online-class" },
         { name: "Hybrid Class", link: "/hybrid-class" },
         { name: "Employee Training", link: "/training" },
-        { name: "Instructional Design", link: "/instructional-design" },
       ],
     },
+    { name: "Instructional Design", link: "/instructional-design" },
     { name: "About Me", link: "/#about" },
     // {name: 'Blog', link: '#blog'}
   ];
