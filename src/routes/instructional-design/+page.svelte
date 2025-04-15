@@ -294,7 +294,7 @@
       </p>
 
       <div class="flex flex-col md:flex-row justify-between items-center">
-        <a href="instructional-design/case-study-1"
+        <a href="/case-study-1"
           ><div
             class="my-4 w-[300px] p-4 bg-red-400 rounded-xl text-white font-bold bg-gradient-to-r from-cyan-600 to-cyan-600 hover:from-amber-600 hover:to-amber-500"
           >
@@ -305,7 +305,7 @@
           </div></a
         >
 
-        <a href="instructional-design/case-study-2"
+        <a href="/case-study-2"
           ><div
             class="my-4 w-[300px] p-4 bg-red-400 rounded-xl text-white font-bold bg-gradient-to-r from-cyan-600 to-cyan-600 hover:from-amber-600 hover:to-amber-500"
           >
@@ -315,7 +315,7 @@
           </div></a
         >
 
-        <a href="instructional-design/case-study-3"
+        <a href="/case-study-3"
           ><div
             class="my-4 w-[300px] p-4 bg-red-400 rounded-xl text-white font-bold bg-gradient-to-r from-cyan-600 to-cyan-600 hover:from-amber-600 hover:to-amber-500"
           >
