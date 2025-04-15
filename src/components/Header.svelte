@@ -12,7 +12,16 @@
         { name: "Employee Training", link: "/training" },
       ],
     },
-    { name: "Instructional Design", link: "/instructional-design" },
+    {
+      name: "Instructional Design",
+      link: "/instructional-design",
+
+      children: [
+        { name: "Case Study 1", link: "instructional-design/case-study-1" },
+        { name: "Case Study 2", link: "instructional-design/case-study-2" },
+        { name: "Case Study 3", link: "instructional-design/case-study-3" },
+      ],
+    },
     { name: "About Me", link: "/#about" },
     // {name: 'Blog', link: '#blog'}
   ];
