@@ -18,7 +18,7 @@
 <main
   class="flex flex-col flex-1 lg:max-w-[950px] place-self-center bg-white rounded-lg"
 >
-  <div class="bg-cyan-700 p-4 mb-6 lg:p-20 rounded-t-lg">
+  <div class="bg-amber-400 p-4 mb-6 lg:p-20 rounded-t-lg">
     <h1
       class="text-white font-bold text-3xl text-center sm:text-6xl md:text-6xl"
       style="line-height:1.1;"

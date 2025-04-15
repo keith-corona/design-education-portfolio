@@ -47,6 +47,7 @@
         a design-centric role.
       </p>
     </div>
+
     <div
       class="flex flex-col lg:justify-around bg-cyan-800 rounded-xl p-4 text-cyan-100 shadow-lg border border-solid border-cyan-200 border-4 border-opacity-80"
     >
@@ -70,9 +71,7 @@
         </ul>
       </div>
       <div class="px-4">
-        <h3 class="text-white text-xl sm:text-xl md:text-xl pt-6">
-          Expertise in
-        </h3>
+        <h3 class="text-white text-xl pt-6">Expertise in</h3>
         <ul class="p-2 list-disc">
           <li class="text-lg sm:text-lg md:text-lg">
             LMS platforms (Canvas, Moodle)
@@ -90,6 +89,27 @@
             EdTech and related technologies
           </li>
         </ul>
+      </div>
+      <div class="px-4">
+        <h3 class="text-white text-xl pt-6">Case Studies</h3>
+        <div class="flex flex-col md:flex-row">
+          <a
+            href="instructional-design/case-study-1"
+            class="text-center border-2 border-cyan-200 bg-amber-200 md:bg-cyan-400 p-4 rounded-2xl text-slate-600 m-2 hover:bg-amber-200"
+            >Case Study 1</a
+          >
+
+          <a
+            href="./case-study-2"
+            class="text-center border-2 border-cyan-200 bg-amber-200 md:bg-cyan-400 p-4 rounded-2xl text-slate-600 m-2 hover:bg-amber-200"
+            >Case Study 2</a
+          >
+          <a
+            href="./case-study-3"
+            class="text-center border-2 border-cyan-200 bg-amber-200 md:bg-cyan-400 p-4 rounded-2xl text-slate-600 m-2 hover:bg-amber-200"
+            >Case Study 3</a
+          >
+        </div>
       </div>
     </div>
   </section>
