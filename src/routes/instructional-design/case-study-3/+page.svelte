@@ -362,10 +362,10 @@
       >
         <img
           class="w-[500px] h-auto rounded cursor-pointer"
-          src="/images/id/canvas-home.png?width=500&format=webp"
-          alt="Canvas LMS homepage"
+          src="/images/id/PM-Kanban.png?width=500&format=webp"
+          alt="Kanban management"
           on:click={() =>
-            openModal("/images/id/canvas-home.png?width=1200&format=webp")}
+            openModal("/images/id/PM-Kanban.png?width=1200&format=webp")}
           loading="lazy"
         />
       </div>
@@ -374,10 +374,10 @@
       >
         <img
           class="w-[500px] h-auto rounded cursor-pointer"
-          src="/images/id/modules-schedule.png?width=500&format=webp"
-          alt="Weekly modules"
+          src="/images/id/PM-activities.png?width=500&format=webp"
+          alt="Assigning activities"
           on:click={() =>
-            openModal("/images/id/modules-schedule.png?width=1200&format=webp")}
+            openModal("/images/id/PM-activities.png?width=1200&format=webp")}
           loading="lazy"
         />
       </div>
@@ -386,10 +386,10 @@
       >
         <img
           class="w-[500px] h-auto rounded cursor-pointer"
-          src="/images/id/page-lesson.png?width=500&format=webp"
-          alt="Page lesson with video"
+          src="/images/id/PM-weekly.png?width=500&format=webp"
+          alt="Weekly organizing"
           on:click={() =>
-            openModal("/images/id/page-lesson.png?width=1200&format=webp")}
+            openModal("/images/id/PM-weekly.png?width=1200&format=webp")}
           loading="lazy"
         />
       </div>

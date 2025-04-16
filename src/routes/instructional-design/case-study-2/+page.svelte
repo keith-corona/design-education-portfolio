@@ -378,10 +378,10 @@
       >
         <img
           class="w-[500px] h-auto rounded cursor-pointer"
-          src="/images/id/canvas-home.png?width=500&format=webp"
-          alt="Canvas LMS homepage"
+          src="/images/id/miro.jpg?width=500&format=webp"
+          alt="Miro collaborative brainstorm"
           on:click={() =>
-            openModal("/images/id/canvas-home.png?width=1200&format=webp")}
+            openModal("/images/id/miro.jpg?width=1200&format=webp")}
           loading="lazy"
         />
       </div>
@@ -390,10 +390,12 @@
       >
         <img
           class="w-[500px] h-auto rounded cursor-pointer"
-          src="/images/id/modules-schedule.png?width=500&format=webp"
-          alt="Weekly modules"
+          src="/images/id/dialectical-journals.png?width=500&format=webp"
+          alt="Google Docs collaborative journals"
           on:click={() =>
-            openModal("/images/id/modules-schedule.png?width=1200&format=webp")}
+            openModal(
+              "/images/id/dialectical-journals.png?width=1200&format=webp",
+            )}
           loading="lazy"
         />
       </div>
@@ -402,10 +404,12 @@
       >
         <img
           class="w-[500px] h-auto rounded cursor-pointer"
-          src="/images/id/page-lesson.png?width=500&format=webp"
-          alt="Page lesson with video"
+          src="/images/id/canvas-discussion.png?width=500&format=webp"
+          alt="Course discussion on Canvas LMS"
           on:click={() =>
-            openModal("/images/id/page-lesson.png?width=1200&format=webp")}
+            openModal(
+              "/images/id/canvas-discussion.png?width=1200&format=webp",
+            )}
           loading="lazy"
         />
       </div>
