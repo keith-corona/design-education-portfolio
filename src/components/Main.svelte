@@ -79,12 +79,16 @@
         <h3>Let's talk <i class="fa-regular fa-envelope" /></h3>
       </a>
     </div>
+
     <div class="relative grid place-items-center">
       <img
-        src={"images/profile-img.jpg"}
+        class="w-[500px] h-auto rounded-full"
+        src="/images/profile-img.jpg?width=500&format=webp"
         alt="Keith Corona profile image"
         title="Keith Corona - Designer & Educator"
-        class="object-cover z-[2] lg:max-h-[70vh] rounded-full"
+        on:click={() =>
+          openModal("/images/profile-img.jpg?width=1200&format=webp")}
+        loading="lazy"
       />
     </div>
   </section>
