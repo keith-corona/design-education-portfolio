@@ -221,31 +221,32 @@
 
         <ul class="pl-10 max-w-[600px] mb-6 list-disc">
           <li class="pb-1">
-            Collaborative Brainstorming via Miro: Students used infinite boards
-            for group idea generation, free from spatial limits.
+            <span class="font-bold"
+              >Collaborative Brainstorming via Miro:
+            </span>Students used infinite boards for group idea generation, free
+            from spatial limits.
           </li>
           <li class="pb-1">
-            Reading Breakdowns via Miro: Visual mappings of texts helped
-            students connect ideas across readings.
+            <span class="font-bold">Reading Breakdowns via Miro:</span> Visual mappings
+            of texts helped students connect ideas across readings.
           </li>
           <li class="pb-1">
-            Annotation via Google Docs: Peers annotated texts collaboratively,
-            leaving comments for discussion.
+            <span class="font-bold">Annotation via Google Docs:</span> Peers annotated
+            texts collaboratively, leaving comments for discussion.
           </li>
           <li class="pb-1">
-            Peer Feedback via Google Docs: Structured feedback sessions used
-            comment features and checklists.
+            <span class="font-bold">Peer Feedback via Google Docs:</span> Structured
+            feedback sessions used comment features and checklists.
           </li>
           <li class="pb-1">
-            Thesis Development via Canvas Discussions: Students posted drafts
-            for peer review, refining work based on examples.
+            <span class="font-bold"
+              >Thesis Development via Canvas Discussions:</span
+            > Students posted drafts for peer review, refining work based on examples.
           </li>
         </ul>
       </div>
 
-      <div
-        class="flex flex-col p-4 justify-center rounded-xl m-2 md:ml-4 bg-slate-100 flex-1"
-      >
+      <div class="flex flex-col p-4 rounded-xl m-2 md:ml-4 bg-slate-100 flex-1">
         <h2 class="self-start text-lg font-bold mb-4">
           Technology Integration
         </h2>

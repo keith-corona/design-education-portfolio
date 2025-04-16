@@ -24,6 +24,30 @@
   >
     Instructional Design Portfolio
   </h1>
+  <!-- Modal for larger image -->
+  {#if isModalOpen}
+    <div
+      class="fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50"
+      on:click={closeModal}
+      transition:fade={{ duration: 200 }}
+    >
+      <!-- Larger image -->
+      <img
+        class="max-w-[90vw] max-h-[90vh] rounded shadow-lg border border-cyan-700"
+        src={largeImageSrc}
+        alt="Large image"
+        on:click|stopPropagation
+        loading="lazy"
+      />
+      <!-- Close button -->
+      <button
+        class="absolute top-4 right-4 text-cyan-700 text-2xl bg-white rounded-full w-10 h-10 flex items-center justify-center"
+        on:click={closeModal}
+      >
+        ✕
+      </button>
+    </div>
+  {/if}
   <section
     class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-6 rounded-xl p-4 text-cyan-800"
   >
@@ -149,11 +173,11 @@
         relevance in learners’ present and future lives.
       </p>
       <p class="text-lg">
-        I believe technology should enhance proven pedagogical models with
-        intention, not merely because it’s ubiquitous or expected. I believe a
-        blend of cognitivist, pragmatist, and constructivist perspectives
-        fosters environments where mental growth, practical relevance, and
-        active knowledge construction converge.
+        I also believe that technology should enhance proven pedagogical models
+        with intention, not merely because it’s ubiquitous or expected. I
+        believe a blend of cognitivist, pragmatist, and constructivist
+        perspectives fosters environments where mental growth, practical
+        relevance, and active knowledge construction converge.
       </p>
     </div>
   </section>
@@ -161,7 +185,6 @@
   <section
     class="flex flex-col flex-col-reverse md:flex-row py-8 sm:py-14 items-center p-4 m-2"
   >
-    <!-- import img-->
     <div
       class="w-full sm:w-[500px] bg-blue-500 shadow-md text-white rounded mt-8 md:m-2"
     >
@@ -174,13 +197,12 @@
         loading="lazy"
       />
     </div>
-    <!-- end import img-->
 
     <div
       class="flex flex-col lg:justify-center text-left text-cyan-800 max-w-[500px] md:mx-8"
     >
       <h2
-        class="text-cyan-700 font-semibold text-xl md:text-3xl"
+        class="text-cyan-700 font-semibold text-xl md:text-3xl md:my-2"
         style="line-height:1.1;"
       >
         Skills and Expertise
@@ -196,7 +218,7 @@
         This blend of technical proficiency and deep understanding of how users
         interact with digital systems enables me to quickly grasp the mechanics
         and potential of emerging tools. For instance, while I’ve become an
-        expert user of Canvas, adapting its features to enhance learning
+        expert user of the Canvas LMS, adapting its features to enhance learning
         experiences, my background equips me to efficiently learn and leverage
         any new platform.
       </p>
@@ -214,7 +236,7 @@
       class="flex flex-col lg:justify-center text-left text-cyan-800 max-w-[500px] md:mx-8"
     >
       <h2
-        class="text-cyan-700 font-semibold text-xl sm:text-3xl md:text-3xl"
+        class="text-cyan-700 font-semibold text-xl sm:text-3xl md:text-3xl md:my-2"
         style="line-height:1.1;"
       >
         Teaching Materials
@@ -271,7 +293,7 @@
       class="flex flex-col lg:justify-center text-left text-cyan-800 max-w-[500px] md:mx-8"
     >
       <h2
-        class="text-cyan-700 font-semibold text-xl sm:text-3xl md:text-3xl"
+        class="text-cyan-700 font-semibold text-xl sm:text-3xl md:text-3xl md:my-2"
         style="line-height:1.1;"
       >
         Workshops
@@ -298,24 +320,23 @@
   <section class="flex flex-col items-center p-4 mt-10">
     <div class="text-cyan-800 lg:max-w-[950px]">
       <h2
-        class="text-cyan-700 font-semibold text-xl sm:text-3xl md:text-3xl"
+        class="text-cyan-700 font-semibold text-xl sm:text-3xl md:text-3xl md:my-2"
         style="line-height:1.1;"
       >
         Case Studies
       </h2>
       <p class="text-lg">
-        Over the course of my career, I have compiled a series of case studies
-        that highlight my expertise in educational leadership and innovation.
-        These include successfully leading teams to craft compelling grant
-        proposals, securing funding to design and deliver impactful courses
-        tailored to learners. Another example showcases my ability to transform
-        traditional course content into engaging, effective online courses,
-        preserving pedagogical integrity while leveraging digital platforms.
-        Additionally, I have championed the strategic use of technology in
-        education, integrating tools to enhance learning outcomes. Together,
-        these cases reflect my commitment to fostering meaningful educational
-        experiences through collaboration, creativity, and purposeful
-        innovation.
+        My professional journey in education is captured through a collection of
+        case studies that showcase my innovative contributions. One highlight
+        includes guiding a team of educators to successfully secure a grant,
+        enabling the creation of tailored, high-impact courses for diverse
+        learners. Another pivotal experience involved reimagining traditional
+        course materials as dynamic online learning experiences that maintained
+        academic rigor while embracing digital tools. Furthermore, I have
+        strategically integrated cutting-edge technologies into educational
+        frameworks aimed at creating improvements in learning outcomes.
+        Collectively, these cases illustrate my passion for collaborative,
+        creative, and purposeful advancements in education.
       </p>
 
       <div class="flex flex-col md:flex-row justify-between items-center">

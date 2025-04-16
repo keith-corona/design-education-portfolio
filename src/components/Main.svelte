@@ -1,4 +1,20 @@
 <script>
+  import { fade } from "svelte/transition"; // For smooth modal animation
+  let isModalOpen = false; // Tracks if modal is open
+  let largeImageSrc = ""; // Stores the larger image URL
+
+  // Function to open modal with larger image
+  function openModal(src) {
+    largeImageSrc = src;
+    isModalOpen = true;
+  }
+
+  // Function to close modal
+  function closeModal() {
+    isModalOpen = false;
+  }
+
+  // Original imports pre-image
   import Step from "./Step.svelte";
 
   let steps = [
@@ -189,4 +205,28 @@
       <span class="text-cyan-600 italic poppins">experience</span>.
     </h5>
   </section>
+
+  {#if isModalOpen}
+    <div
+      class="fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50"
+      on:click={closeModal}
+      transition:fade={{ duration: 200 }}
+    >
+      <!-- Larger image -->
+      <img
+        class="max-w-[90vw] max-h-[90vh] rounded shadow-lg border-4 border-white"
+        src={largeImageSrc}
+        alt="Large image"
+        on:click|stopPropagation
+        loading="lazy"
+      />
+      <!-- Close button -->
+      <button
+        class="absolute top-4 right-4 text-cyan-700 text-2xl bg-white rounded-full w-10 h-10 flex items-center justify-center"
+        on:click={closeModal}
+      >
+        ✕
+      </button>
+    </div>
+  {/if}
 </main>

@@ -138,7 +138,7 @@
       <p class="max-w-[950px] mb-6">
         Given that Canvas was the university’s standard LMS, I focused on
         integrating tools that would elevate the learning experience rather than
-        act as digital stand-ins for in-person tasks:
+        act as digital replacements for in-person tasks:
       </p>
       <ul class="pl-10 max-w-[600px] mb-4 list-disc">
         <li class="pb-1">
@@ -291,9 +291,7 @@
     <!-- 2nd -->
 
     <div class="flex flex-col md:flex-row justify-center md:mt-4">
-      <div
-        class="flex flex-col p-4 justify-center rounded-xl m-2 bg-slate-100 flex-1"
-      >
+      <div class="flex flex-col p-4 rounded-xl m-2 bg-slate-100 flex-1">
         <h2 class="self-start text-lg font-bold mb-4">
           Asynchronous-to-Synchronous Workflow
         </h2>

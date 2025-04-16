@@ -97,30 +97,16 @@
     <div
       class="max-w-[500px] p-4 border-cyan-700 border-2 rounded-lg m-4 flex-1"
     >
-      <h2 class="self-start text-lg font-bold mb-4">Design Methodology</h2>
-      <p class="max-w-[950px] mb-6">Using an adapted ADDIE framework:</p>
-      <ul class="max-w-[950px] mb-6 list-decimal pl-6">
-        <li class="pb-1">
-          <span class="font-bold">Analysis:</span> Defined grant goals and aligned
-          them with program priorities.
-        </li>
-        <li class="pb-1">
-          <span class="font-bold">Design:</span> Planned a course structure with
-          reusable videos and a project management system.
-        </li>
-        <li class="pb-1">
-          <span class="font-bold">Development:</span> Built the proposal, Notion
-          hub, and course prototype collaboratively.
-        </li>
-        <li class="pb-1">
-          <span class="font-bold">Implementation:</span> Executed the grant plan
-          and launched the course on Canvas.
-        </li>
-        <li class="pb-1">
-          <span class="font-bold">Evaluation:</span> Reviewed outcomes with an instructional
-          designer for refinement.
-        </li>
-      </ul>
+      <h2 class="self-start text-lg font-bold mb-4">Project Planning</h2>
+      <p class="max-w-[950px] mb-2">
+        The project involved coordinating with a combination of team members and
+        collaborators from outside programs.
+      </p>
+      <p class="max-w-[950px] mb-2">
+        Organization and a detailed project road map were essential to
+        developing a successful proposal. Since our team was collaborating
+        remotely, the technology stack for this project was crucial.
+      </p>
     </div>
   </section>
 
@@ -181,11 +167,22 @@
     </h2>
   </div>
 
-  <!-- Solutions -->
-
-  <!-- Implementing Flexbox Grid-->
-
   <section class="flex flex-col justify-center p-4 text-cyan-700">
+    <div class="flex flex-col md:flex-row md:mt-4">
+      <div
+        class="flex flex-col p-4 m-2 justify-center rounded-xl bg-slate-100 flex-1"
+      >
+        <h2 class="self-start text-lg font-bold mb-4">
+          Details of the Project
+        </h2>
+        <p class="max-w-[950px] mb-4">
+          While this grant proposal project highlights project management
+          skills, the actual course proposal featured several interesting
+          features that have become staples in my instructional design bag. The
+          details of the course are outlined in the subsequent sections.
+        </p>
+      </div>
+    </div>
     <!--pre-1-->
     <div class="flex flex-col md:flex-row md:mt-4">
       <div
@@ -253,8 +250,8 @@
             faculty instructions.
           </li>
           <li class="pb-1">
-            Streamlined video production with editing tools, ensuring
-            consistency and polish.
+            Streamlined video production with editing tools (OBS Studio),
+            ensuring consistency and polish.
           </li>
         </ul>
       </div>
@@ -299,7 +296,7 @@
 
   <section class="flex flex-col px-8 py-2 text-cyan-700">
     <div>
-      <h2 class="self-start text-lg font-bold mb-4">Learning Benefits</h2>
+      <h2 class="self-start text-lg font-bold mb-4">Project Benefits</h2>
 
       <ul class="pl-10 max-w-[600px] mb-4 list-disc">
         <li class="pb-1">
@@ -425,17 +422,18 @@
   <section
     class="flex flex-col justify-center lg:pt-8 px-8 py-2 lg:mb-20 text-cyan-700"
   >
-    <h2 class="self-start text-2xl font-bold mb-4">Reflection on Learning</h2>
+    <h2 class="self-start text-2xl font-bold mb-4">Project Reflection</h2>
     <p class="max-w-[950px] mb-4">
       Leading this project underscored the critical role of project management
-      in instructional design—Notion’s tools turned a complex team effort into a
-      cohesive, grant-winning proposal. The experience deepened my appreciation
+      in instructional design. Notion’s tools turned a complex team effort into
+      a cohesive, successful proposal. The experience deepened my appreciation
       for aligning technology with practical outcomes; the videos’ reusability
       met a real faculty need, amplifying impact beyond a single course.
       Collaborating with an instructional designer post-grant refined my
       approach to iterative design, highlighting the value of expert input. In
-      future projects, I’d integrate more formative team check-ins within Notion
-      to preempt delays and enhance video prototyping earlier in the process.
+      future projects, I would integrate more formative team check-ins within
+      Notion to preempt delays and enhance video prototyping earlier in the
+      process.
     </p>
   </section>
 </main>
