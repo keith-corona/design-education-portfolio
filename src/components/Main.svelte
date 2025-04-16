@@ -31,14 +31,14 @@
         "As a human experience designer, my professional journey revolves around crafting meaningful and impactful learner experiences in particular. I attempt to use a holistic approach to design by integrating diverse data collection methodologies, including user interviews, surveys, and journaling, into the educational landscape. I love discovering learners' unique perspectives and needs so that I can create custom tailored experiences. I do this by drawing on principles from user experience (UX) design where I transform data into cohesive design flows. This process involves the strategic implementation of UX tools such as user journeys, personas, and the development of information architectures within the confines of larger design systems such as an LMS platform.",
     },
     {
-      name: "an excellent listener",
+      name: "a careful listener",
       description:
         "Being a good listener is crucial for any designer because it allows for a deeper understanding of user needs and preferences. As a UX designer, I excel in active listening during user interviews, enabling me to capture nuanced details and empathize with users. I believe this skill is both underrated and fundamental in creating user-centered solutions that genuinely address and enhance the user experience.",
     },
   ];
 </script>
 
-<main class="flex flex-col flex-1 lg:px-20 sm:px-4 md:px-4">
+<main class="flex flex-col flex-1 lg:px-20 px-8">
   <section
     id="introPage"
     class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14"

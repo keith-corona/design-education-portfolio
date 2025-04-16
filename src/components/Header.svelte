@@ -57,32 +57,35 @@
       : " py-6 bg-transparent border-transparent")}
 >
   <a href="/"
-    ><h1 class="font-medium duration-200 hover:text-cyan-100">
+    ><h1 class="font-medium duration-200 hover:text-cyan-600">
       <b class="font-bold poppins">Keith</b> Corona
     </h1></a
   >
 
   <!-- Desktop Navigation -->
-  <div class="sm:flex ml-auto pr-4 items-center gap-4 hidden">
+  <div class="sm:flex ml-auto pr-4 items-center gap-2 hidden">
     {#each tabs as tab, index}
       <div
         class="relative"
         on:mouseenter={() => showDropdown(tab.name)}
         on:mouseleave={hideDropdown}
       >
-        <a href={tab.link} class="duration-200 hover:text-cyan-100">
+        <a
+          href={tab.link}
+          class="duration-200 hover:text-cyan-600 hover:bg-white rounded-md block px-2 py-1"
+        >
           <p>{tab.name}</p>
         </a>
 
         {#if tab.children && activeDropdown === tab.name}
           <ul
-            class="dropdown absolute top-full left-0 bg-white rounded-md shadow-md py-2 mt-1 whitespace-nowrap"
+            class="dropdown absolute top-full left-0 rounded-md py-2 mt-1 whitespace-nowrap bg-white"
           >
             {#each tab.children as child}
               <li>
                 <a
                   href={child.link}
-                  class="block px-6 py-2 text-gray-800 hover:bg-amber-100 duration-150 text-left"
+                  class="block px-6 py-2 text-cyan-600 hover:bg-amber-100 duration-150 text-left"
                 >
                   {child.name}
                 </a>
@@ -102,7 +105,7 @@
   >
     <span
       class={"block w-6 h-0.5 bg-current duration-300 " +
-        (mobileMenuOpen ? "transform rotate-45 translate-y-1.5" : "mb-1.5")}
+        (mobileMenuOpen ? "transform rotate-45 translate-y-1.25" : "mb-1.5")}
     ></span>
     <span
       class={"block w-6 h-0.5 bg-current duration-300 " +
@@ -110,7 +113,7 @@
     ></span>
     <span
       class={"block w-6 h-0.5 bg-current duration-300 " +
-        (mobileMenuOpen ? "transform -rotate-45 -translate-y-1.5" : "")}
+        (mobileMenuOpen ? "transform -rotate-45 -translate-y-1" : "")}
     ></span>
   </button>
 
