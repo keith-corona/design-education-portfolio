@@ -88,7 +88,7 @@
         </ul>
       </div>
       <div class="px-4">
-        <h3 class="text-white text-xl pt-6">Expertise in</h3>
+        <h3 class="text-white text-xl pt-6">Expertise</h3>
         <ul class="p-2 list-disc">
           <li class="text-lg sm:text-lg md:text-lg">
             LMS platforms (Canvas, Moodle)
