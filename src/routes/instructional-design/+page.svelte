@@ -94,18 +94,18 @@
         <h3 class="text-white text-xl pt-6">Case Studies</h3>
         <div class="flex flex-col md:flex-row">
           <a
-            href="instructional-design/case-study-1"
+            href="/instructional-design/case-study-1"
             class="text-center border-2 border-cyan-200 bg-amber-200 md:bg-cyan-400 p-4 rounded-2xl text-slate-600 m-2 hover:bg-amber-200"
             >Case Study 1</a
           >
 
           <a
-            href="instructional-design/case-study-2"
+            href="/instructional-design/case-study-2"
             class="text-center border-2 border-cyan-200 bg-amber-200 md:bg-cyan-400 p-4 rounded-2xl text-slate-600 m-2 hover:bg-amber-200"
             >Case Study 2</a
           >
           <a
-            href="instructional-design/case-study-3"
+            href="/instructional-design/case-study-3"
             class="text-center border-2 border-cyan-200 bg-amber-200 md:bg-cyan-400 p-4 rounded-2xl text-slate-600 m-2 hover:bg-amber-200"
             >Case Study 3</a
           >
@@ -314,7 +314,7 @@
       </p>
 
       <div class="flex flex-col md:flex-row justify-between items-center">
-        <a href="instructional-design/case-study-1"
+        <a href="/instructional-design/case-study-1"
           ><div
             class="my-4 w-[300px] p-4 bg-red-400 rounded-xl text-white font-bold bg-gradient-to-r from-cyan-600 to-cyan-600 hover:from-amber-600 hover:to-amber-500"
           >
@@ -325,7 +325,7 @@
           </div></a
         >
 
-        <a href="instructional-design/case-study-2"
+        <a href="/instructional-design/case-study-2"
           ><div
             class="my-4 w-[300px] p-4 bg-red-400 rounded-xl text-white font-bold bg-gradient-to-r from-cyan-600 to-cyan-600 hover:from-amber-600 hover:to-amber-500"
           >
@@ -335,7 +335,7 @@
           </div></a
         >
 
-        <a href="instructional-design/case-study-3"
+        <a href="/instructional-design/case-study-3"
           ><div
             class="my-4 w-[300px] p-4 bg-red-400 rounded-xl text-white font-bold bg-gradient-to-r from-cyan-600 to-cyan-600 hover:from-amber-600 hover:to-amber-500"
           >
