@@ -1,3 +1,20 @@
+<script>
+  import { fade } from "svelte/transition"; // For smooth modal animation
+  let isModalOpen = false; // Tracks if modal is open
+  let largeImageSrc = ""; // Stores the larger image URL
+
+  // Function to open modal with larger image
+  function openModal(src) {
+    largeImageSrc = src;
+    isModalOpen = true;
+  }
+
+  // Function to close modal
+  function closeModal() {
+    isModalOpen = false;
+  }
+</script>
+
 <main
   class="flex flex-col flex-1 p-4 lg:py-20 sm:py-4 lg:mx-10 bg-white rounded-lg"
 >
@@ -14,7 +31,7 @@
       class="flex flex-col lg:justify-top text-left lg:text-left gap-4 md:gap-4 lg:gap-4"
     >
       <h2
-        class="text-cyan-700 font-semibold text-xl sm:text-3xl md:text-3xl"
+        class="text-cyan-700 font-semibold text-xl md:text-3xl"
         style="line-height:1.1;"
       >
         Overview
@@ -114,19 +131,15 @@
     </div>
   </section>
 
-  <section
-    class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-6 rounded-xl p-4 text-cyan-800 items-center"
-  >
-    <div
-      class="flex flex-col lg:justify-top text-left lg:text-left gap-4 md:gap-4 lg:gap-4"
-    >
+  <section class="flex flex-col m-2 my-8 p-4 text-cyan-800 items-center">
+    <div class="max-w-[850px]">
       <h2
-        class="text-cyan-700 font-semibold text-xl sm:text-3xl md:text-3xl"
+        class="text-cyan-700 font-semibold text-left md:text-center text-xl md:text-3xl pb-4"
         style="line-height:1.1;"
       >
         Philosophy
       </h2>
-      <p class="text-lg">
+      <p class="text-lg mb-6">
         I believe learning thrives in a collaborative, learner-centered
         environment where a leader and learner engage as partners, drawing
         inspiration from the apprenticeship model while adapting to the unique
@@ -143,40 +156,31 @@
         active knowledge construction converge.
       </p>
     </div>
-
-    <figure class="max-w-full max-h-[70vh]">
-      <img
-        src={"images/hybrid/brainstorm.png"}
-        alt="Brainstorm activity on Miro"
-        title="Digital brainstorm"
-        class="object-cover rounded-2xl w-full h-auto"
-      />
-      <figcaption class="text-cyan-700 text-center p-1 mt-2 rounded-md">
-        <span class="italic">Image 2.</span> Editing in DaVinci Resolve.
-      </figcaption>
-    </figure>
   </section>
 
   <section
-    class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14 p-4 items-center"
+    class="flex flex-col flex-col-reverse md:flex-row py-8 sm:py-14 items-center p-4 m-2"
   >
-    <figure class="max-w-full max-h-[70vh]">
+    <!-- import img-->
+    <div
+      class="w-full sm:w-[500px] bg-blue-500 shadow-md text-white rounded mt-8 md:m-2"
+    >
       <img
-        src={"images/id/video-edit.png"}
-        alt="Editing course content"
-        title="Video editing course content"
-        class="object-cover rounded-2xl w-full h-auto"
+        class="w-[500px] h-auto rounded cursor-pointer"
+        src="/images/id/video-edit.png?width=500&format=webp"
+        alt="Course discussion on Canvas LMS"
+        on:click={() =>
+          openModal("/images/id/video-edit.png?width=1200&format=webp")}
+        loading="lazy"
       />
-      <figcaption class="text-cyan-700 text-center p-1 mt-2 rounded-md">
-        <span class="italic">Image 2.</span> Editing in DaVinci Resolve.
-      </figcaption>
-    </figure>
+    </div>
+    <!-- end import img-->
 
     <div
-      class="flex flex-col lg:justify-center text-left lg:text-left gap-4 text-cyan-800"
+      class="flex flex-col lg:justify-center text-left text-cyan-800 max-w-[500px] md:mx-8"
     >
       <h2
-        class="text-cyan-700 font-semibold text-xl sm:text-3xl md:text-3xl"
+        class="text-cyan-700 font-semibold text-xl md:text-3xl"
         style="line-height:1.1;"
       >
         Skills and Expertise
@@ -205,11 +209,9 @@
     </div>
   </section>
 
-  <section
-    class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14 p-4 items-center"
-  >
+  <section class="flex flex-col md:flex-row py-8 sm:py-14 items-center p-4 m-2">
     <div
-      class="flex flex-col lg:justify-center text-left lg:text-left gap-4 md:gap-4 lg:gap-4 text-cyan-800"
+      class="flex flex-col lg:justify-center text-left text-cyan-800 max-w-[500px] md:mx-8"
     >
       <h2
         class="text-cyan-700 font-semibold text-xl sm:text-3xl md:text-3xl"
@@ -235,35 +237,38 @@
         outcomes.
       </p>
     </div>
-    <figure class="max-w-full max-h-[70vh]">
-      <img
-        src={"images/hybrid/brainstorm.png"}
-        alt="Editing course content"
-        title="Video editing course content"
-        class="object-cover rounded-2xl w-full h-auto"
-      />
-      <figcaption class="text-cyan-700 text-center p-1 mt-2 rounded-md">
-        <span class="italic">Image 2.</span> Editing in DaVinci Resolve.
-      </figcaption>
-    </figure>
-  </section>
-  <section
-    class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14 items-center p-4"
-  >
-    <figure class="max-w-full max-h-[70vh]">
-      <img
-        src={"images/id/faculty-workshop.png"}
-        alt="Hosting faculty workshop"
-        title="Zoom faculty workshop"
-        class="object-cover rounded-2xl w-full h-auto"
-      />
-      <figcaption class="text-cyan-700 text-center p-1 mt-2 rounded-md">
-        <span class="italic">Image 2.</span> Editing in DaVinci Resolve.
-      </figcaption>
-    </figure>
 
     <div
-      class="flex flex-col lg:justify-center text-left lg:text-left gap-4 md:gap-4 lg:gap-4 text-cyan-800"
+      class="w-full sm:w-[500px] bg-blue-500 shadow-md text-white rounded mt-8 md:m-2"
+    >
+      <img
+        class="w-[500px] h-auto rounded cursor-pointer"
+        src="/images/id/canvas-page.jpeg?width=500&format=webp"
+        alt="A Canvas lesson page"
+        on:click={() =>
+          openModal("/images/id/canvas-page.jpeg?width=1200&format=webp")}
+        loading="lazy"
+      />
+    </div>
+  </section>
+  <section
+    class="flex flex-col flex-col-reverse md:flex-row md:flex-row py-8 sm:py-14 items-center p-4 md:mt-8"
+  >
+    <div
+      class="w-full sm:w-[500px] bg-blue-500 shadow-md text-white rounded mt-8 md:m-2"
+    >
+      <img
+        class="w-[500px] h-auto rounded cursor-pointer"
+        src="/images/id/faculty-workshop.png?width=500&format=webp"
+        alt="Hosting faculty workshop"
+        on:click={() =>
+          openModal("/images/id/faculty-workshop.png?width=1200&format=webp")}
+        loading="lazy"
+      />
+    </div>
+
+    <div
+      class="flex flex-col lg:justify-center text-left text-cyan-800 max-w-[500px] md:mx-8"
     >
       <h2
         class="text-cyan-700 font-semibold text-xl sm:text-3xl md:text-3xl"
@@ -290,7 +295,7 @@
     </div>
   </section>
 
-  <section class="flex flex-col items-center p-4">
+  <section class="flex flex-col items-center p-4 mt-10">
     <div class="text-cyan-800 lg:max-w-[950px]">
       <h2
         class="text-cyan-700 font-semibold text-xl sm:text-3xl md:text-3xl"
@@ -348,4 +353,28 @@
       </div>
     </div>
   </section>
+
+  {#if isModalOpen}
+    <div
+      class="fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50"
+      on:click={closeModal}
+      transition:fade={{ duration: 200 }}
+    >
+      <!-- Larger image -->
+      <img
+        class="max-w-[90vw] max-h-[90vh] rounded shadow-lg border border-cyan-700"
+        src={largeImageSrc}
+        alt="Large image"
+        on:click|stopPropagation
+        loading="lazy"
+      />
+      <!-- Close button -->
+      <button
+        class="absolute top-4 right-4 text-cyan-700 text-2xl bg-white rounded-full w-10 h-10 flex items-center justify-center"
+        on:click={closeModal}
+      >
+        ✕
+      </button>
+    </div>
+  {/if}
 </main>
