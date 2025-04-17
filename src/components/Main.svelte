@@ -99,11 +99,11 @@
     <div class="relative grid place-items-center">
       <img
         class="w-full max-w-[80vw] sm:max-w-[500px] lg:max-w-[600px] h-auto rounded-full aspect-square"
-        src="/images/profile-img.jpg?width=500&format=webp&q=10"
+        src="/images/profile-img.jpg?width=500&format=webp"
         alt="Keith Corona profile image"
         title="Keith Corona - Designer & Educator"
         on:click={() =>
-          openModal("/images/profile-img.jpg?width=1200&format=webp&q=10")}
+          openModal("/images/profile-img.jpg?width=1200&format=webp")}
       />
       <!-- pause for now
       <img
