@@ -104,7 +104,6 @@
         title="Keith Corona - Designer & Educator"
         on:click={() =>
           openModal("/images/profile-img.jpg?width=1200&format=webp&q=10")}
-        loading="lazy"
       />
       <!-- pause for now
       <img
