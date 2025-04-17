@@ -274,7 +274,7 @@
     </div>
   </section>
   <section
-    class="flex flex-col flex-col-reverse md:flex-row md:flex-row py-8 sm:py-14 items-center p-4 md:mt-8"
+    class="flex flex-col flex-col-reverse md:flex-row py-8 sm:py-14 items-center p-4 md:mt-8"
   >
     <div
       class="w-full sm:w-[500px] bg-blue-500 shadow-md text-white rounded mt-8 md:m-2"
@@ -313,6 +313,50 @@
         ability to break down complex tools into useful insights draws from my
         extensive experience and my enthusiasm for cultivating tech-enhanced,
         collaborative learning spaces.
+      </p>
+    </div>
+  </section>
+
+  <section
+    class="flex flex-col flex-col-reverse md:flex-row md:flex-row-reverse py-8 sm:py-14 items-center p-4 md:mt-8"
+  >
+    <div class="w-full sm:w-[500px] rounded mt-8 md:m-2 flex justify-center">
+      <img
+        class="w-[350px] h-auto rounded cursor-pointer"
+        src="/images/id/canvas_stacked.png?width=350&format=webp"
+        alt="Canvas logo"
+        on:click={() =>
+          openModal("/images/id/canvas_stacked.png?width=1200&format=webp")}
+        loading="lazy"
+      />
+    </div>
+
+    <div
+      class="flex flex-col lg:justify-center text-left text-cyan-800 max-w-[500px] md:mx-8"
+    >
+      <h2
+        class="text-cyan-700 font-semibold text-xl sm:text-3xl md:text-3xl md:my-2"
+        style="line-height:1.1;"
+      >
+        A Note on Canvas
+      </h2>
+      <p class="text-lg my-4">
+        Since the implementation of Canvas at UCSB, I have actively explored its
+        core features and LTIs in both sandbox and live teaching environments.
+        Tools like Syllabus, Announcements, Modules, Grades, People, Pages,
+        GauchoCast, Assignments, Discussions, Quizzes, Files, and Zoom have
+        proven essential in supporting the pedagogical frameworks I build for my
+        courses. I emphasize purposeful integration by choosing a few tools and
+        applying them in versatile ways. For example, I use the Quiz tool to
+        assess student understanding, collect feedback, and facilitate timed
+        writing exercises.
+      </p>
+      <p class="text-lg">
+        Canvas is always evolving, much like the web development world, so
+        staying up to date is less about knowing everything and more about
+        knowing how to learn quickly. That is where my tech background and
+        pedagogical lens intersect, enabling me to make fast, meaningful
+        adaptations.
       </p>
     </div>
   </section>
