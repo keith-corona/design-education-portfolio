@@ -39,7 +39,7 @@
     {
       name: "an educator",
       description:
-        "I love learning new things and sharing what I've learned in innovative ways. With the rapid spread of online learning in the educational landscape, it's more important than ever to be able to match tools with skills and experience. Having a strong foundation in pedadogical principles has really proven to be a benefit in honing my craft and being able to discern which methods and modalities might be best suited for a particular student or group. A couple of principles that I really endorse are keeping a student-centered approach and enabling student autonomy for individual growth.",
+        "I love learning new things and sharing what I've learned in innovative ways. With the rapid spread of online learning in the educational landscape, it's more important than ever to be able to match tools with skills and experience. Having a strong foundation in pedagogical principles has really proven to be a benefit in honing my craft and being able to discern which methods and modalities might be best suited for a particular student or group. A couple of principles that I really endorse are keeping a student-centered approach and enabling student autonomy for individual growth.",
     },
     {
       name: "a human experience designer",
